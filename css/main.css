@@ -4,7 +4,8 @@ body {
 	font-weight: 300;
 	color: white;
 	
-	background-image:  url(../img/back1.jpg);
+	/*background-image:  url(../img/back1.jpg);*/
+	background-color: #515151
     background-size:   cover;                     
     background-repeat: no-repeat;
     background-position: center center;
