@@ -1,0 +1,69 @@
+
+.headerShort {
+	background-color:#2f3e9e ;
+	height: 50px;
+}
+
+.headerTall {
+	background-color:#3F51B5 ;
+	height: 200px;
+	color: white;
+}
+
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -100px;
+}
+
+.footer, .push {
+	background-color: #3F51B5;
+	height: 100px;
+	color: white;
+}
+
+
+.footerTall{
+	height: 50px;
+}
+
+.footerShort {
+	background-color:#2f3e9e;
+	height: 50px;
+}
+
+.bodySpacerBig{
+	height: 30px;
+}
+
+.bodySpacerSmall{
+	height: 15px;
+}
+
+.bodyBottomSpacer{
+	height: 130px;
+}
+
+.titleSpacer{
+	height: 50px;
+}
+
+.footerSpacer{
+	height: 17px;
+}
+
+.footerText{
+	color: #3F51B5;
+	height: 12px;
+}
+
+.FABdiv {
+	margin-left:auto; 
+	margin-right:0; 
+}
