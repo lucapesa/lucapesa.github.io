@@ -1,25 +1,20 @@
-
-.headerShort {
-	background-color:#2f3e9e ;
-	height: 50px;
-}
-
-.headerTall {
-	background-color:#3F51B5 ;
-	height: 200px;
-	color: white;
-}
-
-
-html, body {
+html {
 	height: 100%;
+	width: 100%;
 }
 
-.wrapper {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -100px;
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 .footer, .push {
@@ -28,16 +23,6 @@ html, body {
 	color: white;
 }
 
-
-.footerTall{
-	height: 50px;
-}
-
-.footerShort {
-	background-color:#2f3e9e;
-	height: 50px;
-	margin-bottom: 0px;
-}
 
 .bodySpacerBig{
 	height: 30px;
@@ -51,20 +36,24 @@ html, body {
 	height: 130px;
 }
 
-.titleSpacer{
-	height: 50px;
-}
-
-.footerSpacer{
-	height: 14px;
-}
-
-.footerText{
-	color: #3F51B5;
-	height: 10px;
-}
 
 .FABdiv {
 	margin-left:auto; 
 	margin-right:0; 
+}
+
+.textBlue-Grey{
+	color: #eceff1;
+}
+
+.header{
+	height: 75%;
+	width: 100%;
+}
+
+.coverPicture{
+	background-image: url(../img/coverpic.jpg);
+	background-size: cover;
+	
+	background-position: fixed;
 }

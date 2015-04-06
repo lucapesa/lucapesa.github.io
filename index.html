@@ -31,35 +31,37 @@
     
 </head>
 
-<body>
+<body class="blue-grey lighten-4">
 	
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 	
-	<!-- Body -->
-	<div class="wrapper">
+		<!-- Toolbar -->
+		<nav>
+	      	<div class="nav-wrapper blue-grey darken-2 z-depth2">
+	        	<a href="#!" class="brand-logo"></a>
+	      	</div>
+	    </nav>
+		
+		<div class="header coverPicture">
+			
+		</div>
 		
 		<!-- Header -->
-		<div class="headerTall z-depth-1">
-			<div class="headerShort z-depth-0">
-			</div>
-			<div class="row">
-				<div class ="col s12 m8 l6 offset-m2 offset-l3">
-					<div class="titleSpacer"></div>
-					<h4>
-						Luca Pesavento
-					</h4>
-					
-						UI/UX • Design • Coding
-					
+		<div class="darken-3 textBlue-Grey z-depth-1 coverPicture">
+			<div class="container">
+				<div class="row">
+					<div class="col l12 s12 valign-wrapper">					</div>
 				</div>
 			</div>
 		</div>
+			
+			
+		</div>
 		
-		
-		<!-- Body -->
-		<div class="row">
-						<div class="col s12 m8 l6 offset-m2 offset-l3">
+		<!-- Body --->
+		<div class="row ">
+			<div class="col s12 m8 l6 offset-m2 offset-l3 ">
 				
 				<!-- Body Content -->
 				
@@ -129,8 +131,6 @@
 		</div>
 		
 		
-		<div class="bodyBottomSpacer"></div>
-	</div>
 	
 	
 	
@@ -140,33 +140,26 @@
 								var username = "hey";
 								var hostname = "lucapesavento.com";
 								var linktext = "<i class='mdi-content-mail'></i>";
-								document.write("<a class='btn-floating btn-large waves-effect waves-light orange' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+								document.write("<a class='btn-floating btn-large waves-effect waves-light blue darken-3' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
 								</script>
 
 		 
 	 </div>
-	<!-- Footer -->
-	<div class="footer">
-		<div class="row footerTall">
-			
-			<div class="footerSpacer"></div>
-			<div class ="col s12 m8 l6 offset-m2 offset-l3">
-				<div class="row">
-					<div class="s6">
-												<a class="waves-effect waves-light btn orange" href="docs/cv.pdf">Get my CV</a> 
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="footerShort">
-			<div class="row">
-				<div class="footerSpacer"></div> 
-				<div class ="col s12 m8 l6 offset-m2 offset-l3 footerText">
-				© 2015 Luca Pesavento. <a href="http://materializecss.com"> Materialize </a>
-				</div>
-			</div>
-		</div>
-	</div>
+	
+	<footer class="page-footer blue-grey">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+	              <a class="waves-effect waves-light btn blue darken-3" href="docs/cv.pdf">Get my CV</a> 
+              </div>            
+            </div>
+          </div>
+          <div class="footer-copyright blue-grey darken-2">
+            <div class="container">
+            © 2015 Luca Pesavento. <a href="http://materializecss.com"> Materialize </a> made.
+            </div>
+          </div>
+        </footer>
 	
 </body>
 </html>
