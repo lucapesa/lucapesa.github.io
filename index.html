@@ -40,36 +40,37 @@
 		
 	<div class="wrapper">
 
-		<!-- Toolbar -->
-		<nav class="blue-grey darken-2 z-depth2">
-	      	<div class="nav-wrapper">
-	      	</div>
-	    </nav>
 		
-		<div class="header  valign-wrapper">
+		<div class="header coverPicture z-depth-2 whiteText">
 			<div class="container">
-				<div class="row">
+				<div class="row headerOffset"></div>
+				<div class="row ">
 					
-					<div class="col l2 s12 valign hide-on-med-and-down">
-						<img src="img/profilepic.jpg" alt="" class="circle responsive-img">
-					</div>
-					<div class="col l10 s12 valign"> 
+					
+					
+					<div class="col l8 s12 ">
 						<h4> Pesavento Luca </h4>
 						<h6> UI/UX • Design • Coding </h6>
 					</div>
+	
+					<div class="col l4 s12 valign hide-on-med-and-down">
+						<img src="img/profilepic.jpg" alt="" height="300" width="300"  class="circle responsive-img z-depth-1"/>
+					</div>
+					
 				</div>
 			</div>
 		</div>
 		
-			
-		
 		<!-- Body --->
+		
+		<!--
+		<div class="dividerPicture1 z-depth-1"></div>
+		-->
 		<div class="container">
-			<div class="row">
-				<!-- Body Content -->
+			<div class="row">	
 				
 				<div class="bodySpacerSmall"></div>
-				
+				<div class="bodySpacerSmall"></div>
 				<h5>
 					About me
 				</h5>
@@ -84,19 +85,26 @@
 					
 				
 				<div class="bodySpacerSmall"></div>
-					
-				
-				<div class="bodySpacerSmall"></div>
+			
+			</div>
+		</div>
+		<!--
+		<div class="dividerPicture1 z-depth-1"></div>
+		-->
+		<div class="container">
+			<div class="row">	
 				
 				
 				<h5>
 					What's going on? 
 				</h5>
 				
+				Here are some current projects of mine. Check them out!
+				
 				<div class="bodySpacerSmall"></div>
 				
 				<div class="row">
-			        <div class="col s12 m6 l6">
+			        <div class="col s12 m4 l4">
 			          	<div class="card">
 					        <div class="card-image waves-effect waves-block waves-light">
 					          	<img class="activator" src="img/tripster.jpg">
@@ -111,7 +119,7 @@
 					        </div>
 					    </div>
 			       	</div>
-			       	<div class="col s12 m6 l6">
+			       	<div class="col s12 m4 l4">
 			          	<div class="card">
 					        <div class="card-image waves-effect waves-block waves-light">
 					          	<img class="activator" src="img/mokabytes.jpg">
@@ -126,40 +134,62 @@
 					        </div>
 					    </div>
 			       	</div>
+			       	<div class="col s12 m4 l4">
+			          	<div class="card">
+					        <div class="card-image waves-effect waves-block waves-light">
+					          	<img class="activator" src="img/photography.jpg">
+					        </div>
+					        <div class="card-content">
+					          	<span class="card-title activator grey-text text-darken-4"> Photography <i class="mdi-navigation-more-vert right"></i></span>
+							  	
+					        </div>
+					        <div class="card-reveal">
+					          	<span class="card-title grey-text text-darken-4">Photography<i class="mdi-navigation-close right"></i></span>
+							  	<p>Some photos of mine, from flickr.</p><p><a href="https://www.flickr.com/photos/132355800@N02/">view the gallery</a></p>
+					        </div>
+					    </div>
+			       	</div>
 			    </div>
 				
 				
+				<div class="bodySpacerSmall"></div>
 				
 			</div>
 		</div>
 		
 		
+		<!--
+		</div>
+		
+		-->
+		
 		<!-- FAB --> 
-		<div class="fixed-action-btn" style="bottom: 80px; right: 25px;">
+		<div class="fixed-action-btn" style="bottom: 80px; right: 30px;">
 			 
 			<script language="JavaScript">
 			var username = "hey";
 			var hostname = "lucapesavento.com";
 			var linktext = "<i class='mdi-content-mail'></i>";
-			document.write("<a class='btn-floating btn-large waves-effect waves-light blue darken-3' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+			document.write("<a class='btn-floating btn-large waves-effect waves-light orange darken-3' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
 			</script>
 				 
-		</div>
-		<div class="push"></div>		
+		</div>		
 	</div>
 	
 	<div class="footer"> 
-		<footer class="page-footer blue-grey">
+		<footer class="page-footer blue-grey dividerPicture2">
 	        <div class="container">
 	            <div class="row">
+		            <div class="footerSpacing"></div>
 	              	<div class="col l6 s12">
-		              <a class="waves-effect waves-light btn blue darken-3" href="docs/cv.pdf">Get my CV</a> 
+		              <a class="waves-effect waves-light btn orange darken-3" href="docs/cv.pdf">Get my CV</a> 
 	              </div>            
 	            </div>
-	          </div>
-	          <div class="footer-copyright blue-grey darken-2">
+	        </div>
+	        
+	        <div class="footer-copyright blue-grey darken-2">
 	            <div class="container">
-	            © 2015 Luca Pesavento. <a href="http://materializecss.com"> Materialize </a> made.
+	            	© 2015 Luca Pesavento. <a href="http://materializecss.com"> Materialize </a> made.
 	            </div>
 	        </div>
 		</footer>

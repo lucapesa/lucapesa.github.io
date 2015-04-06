@@ -14,18 +14,19 @@ body {
 	min-height: 100%;
 	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
 	height: 100%;
-	margin: 0 auto -140px; /* the bottom margin is the negative value of the footer's height */
+	width: 100%
+	margin: 0 auto -300px; /* the bottom margin is the negative value of the footer's height */
 }
 .footer, .push {
-	height: 140px; /* .push must be the same height as .footer */
+	height: 300px; /* .push must be the same height as .footer */
 }
 
 .bodySpacerBig{
-	height: 30px;
+	height: 70px;
 }
 
 .bodySpacerSmall{
-	height: 15px;
+	height: 50px;
 }
 
 .bodyBottomSpacer{
@@ -38,12 +39,12 @@ body {
 	margin-right:0; 
 }
 
-.textBlue-Grey{
+.whiteText{
 	color: #eceff1;
 }
 
 .header{
-	height: 300px;
+	height: 600px;
 	width: 100%;
 }
 
@@ -51,6 +52,31 @@ body {
 	background-image: url(../img/coverpic.jpg);
 	background-size: cover;
 	
-	background-position: fixed;
+	background-position: center center;
 }
 
+.dividerPicture1 {
+	
+	height:300px;
+	
+	background-image: url(../img/divider1.jpg);
+	background-size: cover;
+	
+	background-position: center center;
+}
+
+.dividerPicture2 {
+	
+	background-image: url(../img/divider2.jpg);
+	background-size: cover;
+	
+	background-position: center center;
+}
+
+.footerSpacing {
+	height: 250px;
+}
+
+.headerOffset {
+	height: 440px;
+}
