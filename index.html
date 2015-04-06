@@ -36,13 +36,17 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 	
+	
+		
+	<div class="wrapper">
+
 		<!-- Toolbar -->
 		<nav class="blue-grey darken-2 z-depth2">
 	      	<div class="nav-wrapper">
 	      	</div>
 	    </nav>
 		
-		<div class="header blue-grey valign-wrapper z-depth-1">
+		<div class="header  valign-wrapper">
 			<div class="container">
 				<div class="row">
 					
@@ -51,14 +55,13 @@
 					</div>
 					<div class="col l10 s12 valign"> 
 						<h4> Pesavento Luca </h4>
-						<h5> UI/UX • Design • Coding </h5>
+						<h6> UI/UX • Design • Coding </h6>
 					</div>
 				</div>
 			</div>
 		</div>
 		
 			
-		</div>
 		
 		<!-- Body --->
 		<div class="container">
@@ -131,35 +134,36 @@
 		</div>
 		
 		
+		<!-- FAB --> 
+		<div class="fixed-action-btn" style="bottom: 80px; right: 25px;">
+			 
+			<script language="JavaScript">
+			var username = "hey";
+			var hostname = "lucapesavento.com";
+			var linktext = "<i class='mdi-content-mail'></i>";
+			document.write("<a class='btn-floating btn-large waves-effect waves-light blue darken-3' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+			</script>
+				 
+		</div>
+		<div class="push"></div>		
+	</div>
 	
-	
-	
-	 <div class="fixed-action-btn" style="bottom: 80px; right: 25px;">
-		 
-	<script language="JavaScript">
-								var username = "hey";
-								var hostname = "lucapesavento.com";
-								var linktext = "<i class='mdi-content-mail'></i>";
-								document.write("<a class='btn-floating btn-large waves-effect waves-light blue darken-3' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
-								</script>
-
-		 
-	 </div>
-	
-	<footer class="page-footer blue-grey">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-	              <a class="waves-effect waves-light btn blue darken-3" href="docs/cv.pdf">Get my CV</a> 
-              </div>            
-            </div>
-          </div>
-          <div class="footer-copyright blue-grey darken-2">
-            <div class="container">
-            © 2015 Luca Pesavento. <a href="http://materializecss.com"> Materialize </a> made.
-            </div>
-          </div>
-        </footer>
+	<div class="footer"> 
+		<footer class="page-footer blue-grey">
+	        <div class="container">
+	            <div class="row">
+	              	<div class="col l6 s12">
+		              <a class="waves-effect waves-light btn blue darken-3" href="docs/cv.pdf">Get my CV</a> 
+	              </div>            
+	            </div>
+	          </div>
+	          <div class="footer-copyright blue-grey darken-2">
+	            <div class="container">
+	            © 2015 Luca Pesavento. <a href="http://materializecss.com"> Materialize </a> made.
+	            </div>
+	        </div>
+		</footer>
+	</div>
 	
 </body>
 </html>

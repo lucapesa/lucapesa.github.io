@@ -4,25 +4,21 @@ html {
 }
 
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
 }
 
-main {
-    flex: 1 0 auto;
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -140px; /* the bottom margin is the negative value of the footer's height */
 }
-
 .footer, .push {
-	background-color: #3F51B5;
-	height: 90px;
-	color: white;
+	height: 140px; /* .push must be the same height as .footer */
 }
-
 
 .bodySpacerBig{
 	height: 30px;
@@ -57,3 +53,4 @@ main {
 	
 	background-position: fixed;
 }
+
