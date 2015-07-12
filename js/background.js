@@ -38,7 +38,7 @@
 		finaly =  (height - finalh);
 
 		//apply size and position to background
-		document.getElementsByTagName("body")[0].style.background = "url('img/background@2x.jpg')";
+		document.getElementsByTagName("body")[0].style.background = "url('img/background.jpg')";
 		document.getElementsByTagName("body")[0].style.backgroundSize = "" + finalw + "px " + finalh + "px"; 
 		document.getElementsByTagName("body")[0].style.backgroundPosition = "" + finalx + "px " + finaly + "px";
 		document.getElementsByTagName("body")[0].style.backgroundAttachment = "fixed";
