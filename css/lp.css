@@ -56,3 +56,10 @@ a:hover {
 .bottomspace {
 	height: 30px;
 }
+
+/* Mobile browsers only */
+@media only screen and (max-device-width: 480px) {
+    h1, h2, a {
+    	font-size: 50px;
+    }
+}

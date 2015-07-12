@@ -62,11 +62,13 @@
 		document.getElementsByTagName("body")[0].style.backgroundSize = "" + finalw + "px " + finalh + "px"; 
 		document.getElementsByTagName("body")[0].style.backgroundPosition = "" + finalx + "px " + finaly + "px";
 		document.getElementsByTagName("body")[0].style.backgroundAttachment = "fixed";
+
+		return width;
 	};
 
-	placebg();
-
-	window.onresize = function() {
-		placebg();
-	} 
+	if (placebg() > 500){
+		window.onresize = function() {
+			placebg();
+		} 
+	}
 })();
