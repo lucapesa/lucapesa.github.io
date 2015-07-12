@@ -1,0 +1,58 @@
+
+
+body{
+
+	color: white;
+	text-align: center;
+
+	background-color: black;
+	background-attachment: fixed;
+
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+.container {
+
+	margin: 0px auto;
+	width: 150px;
+
+} 
+
+
+h1, h2, a, .copyright {
+	font-family: 'Raleway';
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+a { 
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+}
+
+.copyright {
+	color: gray;
+	font-weight: 500;
+	font-size: 12px;
+}
+
+a:hover {
+	color: red;
+}
+
+.bottomspace {
+	height: 30px;
+}
