@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 
-	var contentHeight = document.getElementById("content").clientHeight + 50 + 30 //accounting for margin
+	var contentHeight = document.getElementById("content").clientHeight + 30 + 30 //accounting for margin
 	var viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
 
 	console.log(contentHeight)
