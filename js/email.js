@@ -7,7 +7,8 @@
 	var href = "mailto:" + name + "@" + domain;
 	var innerHTML = name + "@" + domain;
 
-	document.getElementById("email").innerHTML = innerHTML;
+	if (document.getElementById("email").innerHTML == "")
+		document.getElementById("email").innerHTML = innerHTML;
 	document.getElementById("email").href = href;
 
 })();

@@ -1,0 +1,1 @@
+!function(){"use strict";var e="lucapesavento.com",l="hello",t="mailto:hello@"+e,n="hello@"+e;""==document.getElementById("email").innerHTML&&(document.getElementById("email").innerHTML=n),document.getElementById("email").href=t}();

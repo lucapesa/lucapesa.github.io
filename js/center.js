@@ -6,7 +6,7 @@
 
 	if (contentHeight < viewportHeight) {
 		document.getElementById("spacing").style.height = "" + (viewportHeight - contentHeight) / 2 + "px"
-		console.log(document.getElementById("spacing").style.height)
 	}
+
 
 })();

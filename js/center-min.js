@@ -1,0 +1,1 @@
+!function(){"use strict";var e=document.getElementById("content").clientHeight+30+30,t=Math.max(document.documentElement.clientHeight,window.innerHeight||0);e<t&&(document.getElementById("spacing").style.height=(t-e)/2+"px")}();
