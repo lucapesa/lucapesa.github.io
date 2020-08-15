@@ -32,6 +32,9 @@ p {
 	color: #c4c4c5;
 }
 
+.striketrough{
+	text-decoration: line-through;
+}
 
 img {
 	width: 80%;
